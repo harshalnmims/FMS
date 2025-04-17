@@ -1,0 +1,32 @@
+#Spring Profile
+spring:
+  profiles:
+    active: dev
+  application:
+    name: FMS   
+
+ # JSP Configuration
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+#Application Configuration 
+server:
+  port: 8000
+  servlet:
+    context-path: /fms
+
+
+#Logging configuration
+logging:
+  level:
+    root: info
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"
+  log-dir: logs/fms
+
+
+
+
+    

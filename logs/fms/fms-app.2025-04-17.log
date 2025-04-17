@@ -1,0 +1,165 @@
+2025-04-17 23:42:39 INFO  com.nmims.fms.FmsApplication - Starting FmsApplication using Java 21.0.6 with PID 17092 (D:\java projects\fms\fms\target\classes started by Admin in D:\java projects\fms\fms)
+2025-04-17 23:42:39 INFO  com.nmims.fms.FmsApplication - The following 1 profile is active: "dev"
+2025-04-17 23:42:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8000 (http)
+2025-04-17 23:42:39 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:42:39 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 23:42:39 INFO  o.a.c.c.C.[.[localhost].[/fms] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:42:39 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 88 ms
+2025-04-17 23:42:39 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-17 23:42:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8000 (http) with context path '/fms'
+2025-04-17 23:42:39 INFO  com.nmims.fms.FmsApplication - Started FmsApplication in 0.136 seconds (process running for 3828.272)
+2025-04-17 23:42:39 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-04-17 23:44:04 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 23:44:04 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 23:44:04 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-17 23:44:04 INFO  com.nmims.fms.FmsApplication - Starting FmsApplication using Java 21.0.6 with PID 17092 (D:\java projects\fms\fms\target\classes started by Admin in D:\java projects\fms\fms)
+2025-04-17 23:44:04 INFO  com.nmims.fms.FmsApplication - The following 1 profile is active: "dev"
+2025-04-17 23:44:04 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8000 (http)
+2025-04-17 23:44:04 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:44:04 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 23:44:04 INFO  o.a.c.c.C.[.[localhost].[/fms] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:44:04 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 67 ms
+2025-04-17 23:44:04 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-17 23:44:04 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8000 (http) with context path '/fms'
+2025-04-17 23:44:04 INFO  com.nmims.fms.FmsApplication - Started FmsApplication in 0.104 seconds (process running for 3913.479)
+2025-04-17 23:44:04 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-04-17 23:44:06 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 23:44:06 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 23:44:06 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-17 23:44:06 INFO  com.nmims.fms.FmsApplication - Starting FmsApplication using Java 21.0.6 with PID 17092 (D:\java projects\fms\fms\target\classes started by Admin in D:\java projects\fms\fms)
+2025-04-17 23:44:06 INFO  com.nmims.fms.FmsApplication - The following 1 profile is active: "dev"
+2025-04-17 23:44:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8000 (http)
+2025-04-17 23:44:06 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:44:06 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 23:44:06 INFO  o.a.c.c.C.[.[localhost].[/fms] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:44:06 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 68 ms
+2025-04-17 23:44:06 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-17 23:44:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8000 (http) with context path '/fms'
+2025-04-17 23:44:06 INFO  com.nmims.fms.FmsApplication - Started FmsApplication in 0.121 seconds (process running for 3915.07)
+2025-04-17 23:44:06 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-04-17 23:44:09 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 23:44:09 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 23:44:09 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-17 23:44:09 INFO  com.nmims.fms.FmsApplication - Starting FmsApplication using Java 21.0.6 with PID 17092 (D:\java projects\fms\fms\target\classes started by Admin in D:\java projects\fms\fms)
+2025-04-17 23:44:09 INFO  com.nmims.fms.FmsApplication - The following 1 profile is active: "dev"
+2025-04-17 23:44:09 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8000 (http)
+2025-04-17 23:44:09 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:44:09 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 23:44:09 INFO  o.a.c.c.C.[.[localhost].[/fms] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:44:09 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 107 ms
+2025-04-17 23:44:09 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-17 23:44:09 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8000 (http) with context path '/fms'
+2025-04-17 23:44:09 INFO  com.nmims.fms.FmsApplication - Started FmsApplication in 0.16 seconds (process running for 3918.125)
+2025-04-17 23:44:09 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-04-17 23:44:16 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 23:44:16 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 23:44:16 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-17 23:44:17 INFO  com.nmims.fms.FmsApplication - Starting FmsApplication using Java 21.0.6 with PID 17092 (D:\java projects\fms\fms\target\classes started by Admin in D:\java projects\fms\fms)
+2025-04-17 23:44:17 INFO  com.nmims.fms.FmsApplication - The following 1 profile is active: "dev"
+2025-04-17 23:44:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8000 (http)
+2025-04-17 23:44:17 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:44:17 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 23:44:17 INFO  o.a.c.c.C.[.[localhost].[/fms] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:44:17 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 145 ms
+2025-04-17 23:44:17 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-17 23:44:17 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8000 (http) with context path '/fms'
+2025-04-17 23:44:17 INFO  com.nmims.fms.FmsApplication - Started FmsApplication in 0.261 seconds (process running for 3926.028)
+2025-04-17 23:44:17 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-04-17 23:44:19 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 23:44:19 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 23:44:19 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-17 23:44:19 INFO  com.nmims.fms.FmsApplication - Starting FmsApplication using Java 21.0.6 with PID 17092 (D:\java projects\fms\fms\target\classes started by Admin in D:\java projects\fms\fms)
+2025-04-17 23:44:19 INFO  com.nmims.fms.FmsApplication - The following 1 profile is active: "dev"
+2025-04-17 23:44:19 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8000 (http)
+2025-04-17 23:44:19 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:44:19 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 23:44:19 INFO  o.a.c.c.C.[.[localhost].[/fms] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:44:19 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 140 ms
+2025-04-17 23:44:19 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-17 23:44:20 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8000 (http) with context path '/fms'
+2025-04-17 23:44:20 INFO  com.nmims.fms.FmsApplication - Started FmsApplication in 0.212 seconds (process running for 3928.805)
+2025-04-17 23:44:20 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-04-17 23:44:25 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 23:44:25 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 23:44:25 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-17 23:44:25 INFO  com.nmims.fms.FmsApplication - Starting FmsApplication using Java 21.0.6 with PID 17092 (D:\java projects\fms\fms\target\classes started by Admin in D:\java projects\fms\fms)
+2025-04-17 23:44:25 INFO  com.nmims.fms.FmsApplication - The following 1 profile is active: "dev"
+2025-04-17 23:44:25 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8000 (http)
+2025-04-17 23:44:25 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:44:25 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 23:44:25 INFO  o.a.c.c.C.[.[localhost].[/fms] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:44:25 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 60 ms
+2025-04-17 23:44:25 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-17 23:44:25 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8000 (http) with context path '/fms'
+2025-04-17 23:44:25 INFO  com.nmims.fms.FmsApplication - Started FmsApplication in 0.103 seconds (process running for 3934.446)
+2025-04-17 23:44:25 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-04-17 23:44:27 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 23:44:27 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 23:44:27 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-17 23:44:27 INFO  com.nmims.fms.FmsApplication - Starting FmsApplication using Java 21.0.6 with PID 17092 (D:\java projects\fms\fms\target\classes started by Admin in D:\java projects\fms\fms)
+2025-04-17 23:44:27 INFO  com.nmims.fms.FmsApplication - The following 1 profile is active: "dev"
+2025-04-17 23:44:27 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8000 (http)
+2025-04-17 23:44:27 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:44:27 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 23:44:27 INFO  o.a.c.c.C.[.[localhost].[/fms] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:44:27 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 68 ms
+2025-04-17 23:44:27 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-17 23:44:27 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8000 (http) with context path '/fms'
+2025-04-17 23:44:27 INFO  com.nmims.fms.FmsApplication - Started FmsApplication in 0.114 seconds (process running for 3936.06)
+2025-04-17 23:44:27 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-04-17 23:44:28 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 23:44:28 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 23:44:28 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-17 23:44:28 INFO  com.nmims.fms.FmsApplication - Starting FmsApplication using Java 21.0.6 with PID 17092 (D:\java projects\fms\fms\target\classes started by Admin in D:\java projects\fms\fms)
+2025-04-17 23:44:28 INFO  com.nmims.fms.FmsApplication - The following 1 profile is active: "dev"
+2025-04-17 23:44:28 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8000 (http)
+2025-04-17 23:44:28 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:44:28 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 23:44:28 INFO  o.a.c.c.C.[.[localhost].[/fms] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:44:28 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 74 ms
+2025-04-17 23:44:28 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-17 23:44:28 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8000 (http) with context path '/fms'
+2025-04-17 23:44:28 INFO  com.nmims.fms.FmsApplication - Started FmsApplication in 0.139 seconds (process running for 3937.717)
+2025-04-17 23:44:28 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-04-17 23:44:31 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 23:44:31 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 23:44:31 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-17 23:44:31 INFO  com.nmims.fms.FmsApplication - Starting FmsApplication using Java 21.0.6 with PID 17092 (D:\java projects\fms\fms\target\classes started by Admin in D:\java projects\fms\fms)
+2025-04-17 23:44:31 INFO  com.nmims.fms.FmsApplication - The following 1 profile is active: "dev"
+2025-04-17 23:44:31 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8000 (http)
+2025-04-17 23:44:31 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:44:31 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 23:44:31 INFO  o.a.c.c.C.[.[localhost].[/fms] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:44:31 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 69 ms
+2025-04-17 23:44:31 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-17 23:44:31 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8000 (http) with context path '/fms'
+2025-04-17 23:44:31 INFO  com.nmims.fms.FmsApplication - Started FmsApplication in 0.111 seconds (process running for 3940.379)
+2025-04-17 23:44:31 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-04-17 23:44:33 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 23:44:33 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 23:44:33 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-17 23:44:33 INFO  com.nmims.fms.FmsApplication - Starting FmsApplication using Java 21.0.6 with PID 17092 (D:\java projects\fms\fms\target\classes started by Admin in D:\java projects\fms\fms)
+2025-04-17 23:44:33 INFO  com.nmims.fms.FmsApplication - The following 1 profile is active: "dev"
+2025-04-17 23:44:33 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8000 (http)
+2025-04-17 23:44:33 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:44:33 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 23:44:33 INFO  o.a.c.c.C.[.[localhost].[/fms] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:44:33 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 64 ms
+2025-04-17 23:44:33 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-17 23:44:33 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8000 (http) with context path '/fms'
+2025-04-17 23:44:33 INFO  com.nmims.fms.FmsApplication - Started FmsApplication in 0.111 seconds (process running for 3941.983)
+2025-04-17 23:44:33 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-04-17 23:44:41 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 23:44:41 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 23:44:41 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-04-17 23:44:41 INFO  com.nmims.fms.FmsApplication - Starting FmsApplication using Java 21.0.6 with PID 17092 (D:\java projects\fms\fms\target\classes started by Admin in D:\java projects\fms\fms)
+2025-04-17 23:44:41 INFO  com.nmims.fms.FmsApplication - The following 1 profile is active: "dev"
+2025-04-17 23:44:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8000 (http)
+2025-04-17 23:44:42 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-17 23:44:42 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 23:44:42 INFO  o.a.c.c.C.[.[localhost].[/fms] - Initializing Spring embedded WebApplicationContext
+2025-04-17 23:44:42 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 110 ms
+2025-04-17 23:44:42 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-04-17 23:44:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8000 (http) with context path '/fms'
+2025-04-17 23:44:42 INFO  com.nmims.fms.FmsApplication - Started FmsApplication in 0.244 seconds (process running for 3950.923)
+2025-04-17 23:44:42 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
