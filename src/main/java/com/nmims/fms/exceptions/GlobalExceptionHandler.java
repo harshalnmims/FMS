@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.ModelAndView;
 
+import jakarta.servlet.ServletException;
+
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
@@ -19,19 +21,23 @@ public class GlobalExceptionHandler {
     public Object handleGlobalException(
             Exception exception,
             WebRequest request) {
+
+        System.out.println("Global Exception Handler called" + exception);
         String acceptHeader = request.getHeader("Accept");
 
         ErrorDetails errorDetails = ErrorDetails.builder()
                 .timestamp(new Date())
                 .message(exception.getMessage())
-                .status(HttpStatus.INTERNAL_SERVER_ERROR)
+                .status(HttpStatus.INTERNAL_SERVER_ERROR.value())
                 .build();
 
         if (acceptHeader != null && acceptHeader.contains("text/html")) {
-            ModelAndView mav = new ModelAndView("error");
+            System.out.println("HTML response requested");
+            ModelAndView mav = new ModelAndView("error/error");
             mav.addObject("errorDetails", errorDetails);
             return mav;
         } else {
+            System.out.println("JSON response requested");
             return new ResponseEntity<>(errorDetails, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
@@ -46,7 +52,7 @@ public class GlobalExceptionHandler {
         ErrorDetails errorDetails = ErrorDetails.builder()
                 .timestamp(new Date())
                 .message(errorMessage)
-                .status(HttpStatus.BAD_REQUEST)
+                .status(HttpStatus.BAD_REQUEST.value())
                 .build();
 
         return new ResponseEntity<>(errorDetails, HttpStatus.BAD_REQUEST);
@@ -60,10 +66,10 @@ public class GlobalExceptionHandler {
         ErrorDetails errorDetails = ErrorDetails.builder()
                 .timestamp(new Date())
                 .message(exception.getMessage())
-                .status(exception.getStatus())
+                .status(HttpStatus.INTERNAL_SERVER_ERROR.value())
                 .build();
 
-        return new ResponseEntity<>(errorDetails, exception.getStatus());
+        return new ResponseEntity<>(errorDetails, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
     // Exception Handler for Access Denied errors
@@ -77,11 +83,11 @@ public class GlobalExceptionHandler {
         ErrorDetails errorDetails = ErrorDetails.builder()
                 .timestamp(new Date())
                 .message(exception.getMessage())
-                .status(HttpStatus.FORBIDDEN)
+                .status(HttpStatus.FORBIDDEN.value())
                 .build();
 
         if (acceptHeader != null && acceptHeader.contains("text/html")) {
-            ModelAndView mav = new ModelAndView("error");
+            ModelAndView mav = new ModelAndView("error/error");
             mav.addObject("errorDetails", errorDetails);
             return mav;
         } else {
@@ -98,11 +104,11 @@ public class GlobalExceptionHandler {
         ErrorDetails errorDetails = ErrorDetails.builder()
                 .timestamp(new Date())
                 .message(exception.getMessage())
-                .status(HttpStatus.UNAUTHORIZED)
+                .status(HttpStatus.UNAUTHORIZED.value())
                 .build();
 
         if (acceptHeader != null && acceptHeader.contains("text/html")) {
-            ModelAndView mav = new ModelAndView("error");
+            ModelAndView mav = new ModelAndView("error/error");
             mav.addObject("errorDetails", errorDetails);
             return mav;
         } else {
@@ -119,11 +125,11 @@ public class GlobalExceptionHandler {
         ErrorDetails errorDetails = ErrorDetails.builder()
                 .timestamp(new Date())
                 .message(exception.getMessage())
-                .status(HttpStatus.FORBIDDEN)
+                .status(HttpStatus.FORBIDDEN.value())
                 .build();
 
         if (acceptHeader != null && acceptHeader.contains("text/html")) {
-            ModelAndView mav = new ModelAndView("error");
+            ModelAndView mav = new ModelAndView("error/error");
             mav.addObject("errorDetails", errorDetails);
             return mav;
         } else {
@@ -139,11 +145,11 @@ public class GlobalExceptionHandler {
         ErrorDetails errorDetails = ErrorDetails.builder()
                 .timestamp(new Date())
                 .message(exception.getMessage())
-                .status(HttpStatus.BAD_REQUEST)
+                .status(HttpStatus.BAD_REQUEST.value())
                 .build();
 
         if (acceptHeader != null && acceptHeader.contains("text/html")) {
-            ModelAndView mav = new ModelAndView("error");
+            ModelAndView mav = new ModelAndView("error/error");
             mav.addObject("errorDetails", errorDetails);
             return mav;
         } else {
@@ -159,15 +165,35 @@ public class GlobalExceptionHandler {
         ErrorDetails errorDetails = ErrorDetails.builder()
                 .timestamp(new Date())
                 .message(exception.getMessage())
-                .status(HttpStatus.NOT_FOUND)
+                .status(HttpStatus.NOT_FOUND.value())
                 .build();
 
         if (acceptHeader != null && acceptHeader.contains("text/html")) {
-            ModelAndView mav = new ModelAndView("error");
+            ModelAndView mav = new ModelAndView("error/error");
             mav.addObject("errorDetails", errorDetails);
             return mav;
         } else {
             return new ResponseEntity<>(errorDetails, HttpStatus.NOT_FOUND);
+        }
+    }
+
+    // Exception Handler for JSP or Servlet-related errors
+    @ExceptionHandler(ServletException.class)
+    public Object handleServletException(ServletException exception, WebRequest request) {
+        String acceptHeader = request.getHeader("Accept");
+
+        ErrorDetails errorDetails = ErrorDetails.builder()
+                .timestamp(new Date())
+                .message("An internal error occurred while rendering the view: " + exception.getMessage())
+                .status(HttpStatus.INTERNAL_SERVER_ERROR.value())
+                .build();
+
+        if (acceptHeader != null && acceptHeader.contains("text/html")) {
+            ModelAndView mav = new ModelAndView("error/error");
+            mav.addObject("errorDetails", errorDetails);
+            return mav;
+        } else {
+            return new ResponseEntity<>(errorDetails, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 

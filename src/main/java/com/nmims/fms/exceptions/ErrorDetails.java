@@ -12,9 +12,9 @@ import lombok.Data;
 public class ErrorDetails {
     private Date timestamp;
     private String message;
-    private HttpStatus status;
+    private int status;
 
-    public ErrorDetails(Date timestamp, String message, HttpStatus status) {
+    public ErrorDetails(Date timestamp, String message, int status) {
         super();
         this.timestamp = timestamp;
         this.message = message;
