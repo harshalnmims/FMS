@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  tomcat:
+    image: tomcat:9.0.85-jdk21-temurin
+    container_name: fms
+    ports:
+      - "8000:8080"
+    volumes:
+      - /mnt/d/webapps/:/usr/local/tomcat/webapps
+      - /mnt/d/tomcat-logs:/usr/local/tomcat/logs
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    restart: always
+    networks:
+      - fms-network
+
+networks:
+  fms-network:
+    driver: bridge
+    name: fms-network
