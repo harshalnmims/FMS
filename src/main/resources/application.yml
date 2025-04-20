@@ -32,6 +32,20 @@ spring:
       use-key-prefix: true
       key-prefix: fms
 
+  datasource:
+    url: jdbc:postgresql://localhost:5432/dummy_fms
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      '[hibernate.dialect]': org.hibernate.dialect.PostgreSQLDialect
+
 # Application Configuration
 server:
   port: 8000
@@ -45,3 +59,5 @@ logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"
   log-dir: logs/fms
+
+
